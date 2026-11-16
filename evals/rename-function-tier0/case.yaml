@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: rename-function-tier0
+expected_outcome: |
+  Treats this as trivial: performs the rename in both files directly without producing a design brief, research, or tiering ceremony.
+context:
+  scaffold_script: place-files.sh

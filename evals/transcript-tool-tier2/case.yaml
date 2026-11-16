@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: transcript-tool-tier2
+expected_outcome: |
+  Treats this as high-risk (tier 2): restates the need without assuming scraping, checks official/structured access paths and existing tools before coding, defines runnable reliability checks, flags terms-of-service and rate-limit risks for the user, and produces a short brief with decisions for the user before writing the full implementation.

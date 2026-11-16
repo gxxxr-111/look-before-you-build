@@ -1,0 +1,22 @@
+[
+  {"query": "帮我写个工具，每天自动把小红书上某几个博主的新笔记抓下来存成markdown，要能长期稳定跑，我准备放到我那台实验室服务器上用cron跑", "should_trigger": true},
+  {"query": "i need a script that pulls all my starred github repos + their READMEs into a local sqlite db so i can search them offline. ~800 repos. build it?", "should_trigger": true},
+  {"query": "we're starting a new internal tool for our lab to track GPU reservations — like 15 users, needs a web UI. what stack should I use and can you scaffold it", "should_trigger": true},
+  {"query": "ok this is the 4th time the PDF table extraction breaks on a new file layout. i keep adding regex cases to parse_tables.py and something else breaks. can you fix it for this new file (invoices/2026-10-acme.pdf)", "should_trigger": true},
+  {"query": "我想给我们的象棋小游戏加一个电脑对手，难度能调的那种，代码在 game/ 目录下", "should_trigger": true},
+  {"query": "Build me a Slack bot that watches #support and auto-tags each message with a category using Claude, then posts a daily summary. Should run unattended.", "should_trigger": true},
+  {"query": "can you make something that monitors the price of a few products on taobao and jd and pings me on telegram when they drop below a threshold", "should_trigger": true},
+  {"query": "I want to migrate our user table from mongo to postgres — about 2M rows, the app is live. how should we do this", "should_trigger": true},
+  {"query": "需要一个能稳定从知网批量导出论文元数据（标题、作者、摘要、引用数）的东西，大概几千篇，做文献计量用", "should_trigger": true},
+  {"query": "my route optimizer for delivery vans keeps giving dumb routes, i've tried tweaking the greedy heuristic weights in planner.py a bunch. 30 stops per van, 5 vans. make it better", "should_trigger": true},
+  {"query": "rename the `cfg` param to `config` across src/loader.py and src/train.py", "should_trigger": false},
+  {"query": "this test is failing: tests/test_parse.py::test_empty_input — AssertionError: expected [] got None. fix it", "should_trigger": false},
+  {"query": "explain what this regex does: ^(?=.*\\d)(?=.*[a-z]).{8,}$", "should_trigger": false},
+  {"query": "帮我把 README 里的安装步骤翻译成英文", "should_trigger": false},
+  {"query": "add a --verbose flag to scripts/export.py that prints each row as it's written", "should_trigger": false},
+  {"query": "review my PR diff for bugs before I merge — it's the caching change on branch feat/lru", "should_trigger": false},
+  {"query": "what's the difference between minimax and MCTS? just conceptually, for a class presentation", "should_trigger": false},
+  {"query": "scrape the title and price from this one page and give me a csv: https://example-shop.com/sale (just once, I need it for a slide)", "should_trigger": false},
+  {"query": "bump pandas to 2.2 in requirements.txt and check nothing obvious breaks", "should_trigger": false},
+  {"query": "write a docstring for the function compute_iou in metrics.py", "should_trigger": false}
+]

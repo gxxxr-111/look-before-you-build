@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: gomoku-stuck-reframe
+expected_outcome: |
+  Recognises repeated failed fixes as a signal to step back, identifies the core problem as missing lookahead (a one-ply greedy evaluator cannot see forced sequences), recommends a standard search approach such as minimax with alpha-beta pruning or threat-space search, and — since the user asked for a fix and the change is reversible — implements it with tests, explaining the reframe and the decisions made alongside the result rather than just tweaking weights again or stopping for sign-off.
+context:
+  scaffold_script: place-files.sh

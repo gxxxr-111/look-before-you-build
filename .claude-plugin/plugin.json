@@ -1,0 +1,9 @@
+{
+  "name": "look-before-you-build",
+  "version": "0.1.0",
+  "description": "Risk-scaled meta-research for coding agents: decide how much up-front thinking a task deserves, check prior art and the target environment cheaply, write a brief a non-engineer can follow, and step back when repeated fixes keep failing.",
+  "author": { "name": "gxxxr-111" },
+  "repository": "https://github.com/gxxxr-111/look-before-you-build",
+  "license": "MIT",
+  "keywords": ["skill", "planning", "research", "design-brief", "risk"]
+}

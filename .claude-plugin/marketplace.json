@@ -1,0 +1,17 @@
+{
+  "name": "look-before-you-build",
+  "owner": {
+    "name": "gxxxr-111"
+  },
+  "metadata": {
+    "description": "Risk-scaled meta-research skill for Claude Code: think about what to build before building it.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "look-before-you-build",
+      "source": "./",
+      "description": "Risk-scaled meta-research before building: tiering, prior art, cheap environment scouting, a one-page brief, and mid-build step-back triggers."
+    }
+  ]
+}
