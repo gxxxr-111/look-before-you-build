@@ -1,5 +1,7 @@
 # look-before-you-build
 
+**English** | [简体中文](README.zh-CN.md)
+
 > **Status: v0.1, experimental.** Small eval suite, weak auto-triggering. See [What we know so far](#what-we-know-so-far).
 
 A Claude Code skill (`preflight`) that does the **meta-research** coding agents usually skip: deciding how much thinking a task deserves *before* writing code, then doing just that much.
